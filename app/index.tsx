@@ -1,6 +1,9 @@
 import { Text, View } from "react-native";
 
-import Login from "../Component/Login";
+// import Index from "../Component/Index";
+// import Vehicle from "../Component/Vehicle"
+// import Entryvehicle from "../Component/Entryvehicle"
+import Exitvehicle from "../Component/Exitvehicle"
 
 
 
@@ -15,7 +18,10 @@ export default function HomeScreen() {
       }}
     >
      
-      <Login/>
+      {/* <Index/> */}
+      {/* <Vehicle/> */}
+      {/* <Entryvehicle/> */}
+      <Exitvehicle/>
    
     </View>
     
